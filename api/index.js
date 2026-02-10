@@ -171,6 +171,4 @@ app.get("/health", (req, res) => {
     official_email: OFFICIAL_EMAIL,
   });
 });
-
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => console.log("Server running on " + PORT));
+export default app;
